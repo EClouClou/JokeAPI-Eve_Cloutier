@@ -5,7 +5,9 @@ export default {
   ],
   theme: {
     colors: {
-      'nom': '#000000',
+      'white': '#ffffff',
+      'dark-blue': '#1b2851',
+      'blue': '#c5d2fb',
 
     },
     fontFamily: {

@@ -7,8 +7,19 @@
     <script type="module" src="./assets/js/main.js" defer></script>
     <title>JokeAPI</title>
   </head>
-  <body>
-    <h1>JokeAPI</h1>
+  <body class="bg-dark-blue flex gap-6 h-[100vh] justify-between">
+    <div data-role="liked" class="flex flex-col items-start gap-3 p-3 overflow-y-scroll w-[40%]">
 
+    </div>
+
+    <div class="flex justify-center items-center p-3 w-full">
+      <div class="grid bg-blue w-[60%] rounded-lg p-6 gap-6">
+        <div data-role="joke-content" class="text-white grid gap-3"></div>
+        <div class="flex gap-3 justify-end">
+          <button data-role="refresh-joke" type="button" class="bg-dark-blue px-3 py-1 rounded-lg text-white hover:underline">Refresh</button>
+          <button data-role="like-joke" type="button" class="bg-dark-blue px-3 py-1 rounded-lg text-white hover:underline">Like</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
