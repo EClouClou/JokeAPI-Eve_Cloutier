@@ -7,7 +7,8 @@ export default {
     colors: {
       'white': '#ffffff',
       'dark-blue': '#1b2851',
-      'blue': '#c5d2fb',
+      'blue': '#6f8ff4',
+      'black': '#000000',
 
     },
     fontFamily: {
